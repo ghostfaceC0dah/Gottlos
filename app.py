@@ -1,5 +1,6 @@
 import streamlit as st
 
+st.set_page_config(page_title="login", page_icon="🤢")
 
 st.title("Log-in")
 
@@ -10,7 +11,7 @@ class Userinput:
     st.text_input("Password")
 
 
-st.sidebar.success("Men")
+st.sidebar.success("Log-in")
 
 def submit_button():
     if st.button("submit"):
